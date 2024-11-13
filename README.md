@@ -72,4 +72,29 @@ Predicts digits for a batch of test images.
 
 ### Requirements
 
-Install the following Python libraries before running the code:
+The following Python libraries must be installed before running the code:
+* h5py
+* matplotlib
+* numpy
+* tensorflow
+
+### Running the Project
+
+Run the Script: Execute the script to load the dataset, train the model, and save the trained model as Digit_CNN.h5.
+View Results: After training, the model accuracy and loss graphs will display.
+Load Model for Prediction: The model will be reloaded, and predictions will be made for single and multiple test images, with the predicted digit displayed above each image.
+
+### Code Structure
+
+Data Loading & Preprocessing: Loads MNIST data, reshapes, and normalizes it.
+Model Creation: Defines the CNN model architecture.
+Training the Model: Compiles and trains the model for 10 epochs.
+Model Evaluation & Visualization: Visualizes accuracy and loss, then saves the model.
+Prediction: Makes predictions for individual and multiple test images, showing the model’s output alongside the test images.
+
+### Example Output
+
+After running the script, you should see:
+
+Training accuracy and loss plots.
+Predictions on test images, with each displayed alongside its predicted digit label.
